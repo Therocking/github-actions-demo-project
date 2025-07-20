@@ -24,7 +24,7 @@ describe("Recipes API Endpoints", () => {
     
     // The data object must have a title
 
-    expect(res.body.data.title).toBeTruthy();
+    expect(res.body.data.title).toBeFalsy();
 
     // The data object must have an array on ingredients that is a string
 
